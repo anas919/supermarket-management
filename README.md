@@ -8,7 +8,19 @@ This project is an Admin Panel & Rest API for a Supermarket Management System de
 
 - [x] **[Admin Panel] Create/Edit/Delete products**
 
-- [ ] **[Admin Panel] Create/Edit/Delete users**
+- [x] **[Admin Panel] Generating/Managing Codebares**
+
+- [ ] **[Admin Panel] Sales Tracking**
+
+- [ ] **[Admin Panel] Employees Management**
+
+- [ ] **[Admin Panel] Customer Management**
+
+- [ ] **[Admin Panel] Inventory Management & Reporting**
+
+- [ ] **[REST API] Making Rest Api**
+
+- [ ] **[App] Making Client App for Mobile/Desktop devices**
 
 ## Build and Run
 
