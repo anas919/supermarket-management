@@ -32,7 +32,7 @@ public class ProductController {
 
   @RequestMapping(value="create-product", method = RequestMethod.GET)
   public String createProduct(ModelMap model) {
-    Product product = new Product(0,"product Name");
+    Product product = new Product(0,"","","",1,1);
     model.put("product", product);
     return "create-product";
   }

@@ -26,9 +26,11 @@
     <table class="table">
       <thead>
         <tr>
-          <th>id</th>
-          <th>name</th>
-          <th>desc</th>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Price</th>
           <th></th>
         </tr>
       </thead>
@@ -37,8 +39,11 @@
           <tr>
             <td>${product.id}</td>
             <td>${product.name}</td>
-            <td>desc</td>
+            <td>${product.description}</td>
+            <td>${product.quantity}</td>
+            <td>${product.price}</td>
             <td>
+              <a href="/barcodes/barbecue/EAN13/${product.id}" class="btn btn-warning">Get CodeBar</a>
               <a href="edit-product?id=${product.id}" class="btn btn-info">Edit</a>
               <a href="delete-product?id=${product.id}" class="btn btn-danger">delete</a>
             </td>
@@ -47,9 +52,5 @@
       </tbody>
     </table>
   </div>
-  <h1>${email} - ${password}</h1>
-  <c:if test="${email == 'rr'}">
-    Ok! Great Choice!
-  </c:if>
 </body>
 </html>

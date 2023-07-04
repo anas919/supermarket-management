@@ -20,7 +20,17 @@
       </div>
       <div class="mb-3">
         <label for="ProductDescription" class="form-label">Product description</label>
-        <textarea name="description" class="form-control" id="ProductDescription" rows="3"></textarea>
+        <form:textarea path="description" class="form-control" id="ProductDescription" rows="3"></form:textarea>
+      </div>
+      <div class="mb-3">
+        <label for="ProductQuantity" class="form-label">Quantity</label>
+        <form:input path="quantity" type="number" class="form-control" id="ProductQuantity" placeholder="" />
+        <form:errors path="quantity" cssClass="text-danger" />
+      </div>
+      <div class="mb-3">
+        <label for="ProductPrice" class="form-label">Price</label>
+        <form:input path="price" type="text" class="form-control" id="ProductPrice" placeholder="" />
+        <form:errors path="price" cssClass="text-danger" />
       </div>
       <button type="submit" class="btn btn-primary">Update</button>
     </div>
